@@ -70,7 +70,7 @@ URL                 = 'http://github.com/jakevdp/altair-transform/'
 DOWNLOAD_URL        = 'http://github.com/jakevdp/altair-transform/'
 LICENSE             = 'MIT'
 INSTALL_REQUIRES    = get_install_requirements("requirements.txt")
-PYTHON_REQUIRES     = ">=3.7"
+PYTHON_REQUIRES     = ">=3.6"
 VERSION             = version('altair_transform/__init__.py')
 
 
@@ -93,5 +93,6 @@ setup(name=NAME,
         'Intended Audience :: Science/Research',
         'License :: OSI Approved :: MIT License',
         'Natural Language :: English',
+        'Programming Language :: Python :: 3.6',
         'Programming Language :: Python :: 3.7'],
      )
